@@ -115,7 +115,7 @@ p.clear {
     background-color: #666666;
     flex-shrink: 0;
     font-size: 13px;
-    padding-top: 22px;
+    padding-top: 6px;
     text-align: center;
     color: #cccccc;
 
@@ -124,7 +124,7 @@ p.clear {
 .footer,
 .push {
 
-    height: 22px;
+   /* height: 22px;*/
 
 }
 

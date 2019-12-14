@@ -31,6 +31,12 @@ p {
 
 }
 
+.nav {
+
+    float:  right;
+    padding-top: 140px;
+    padding-right: 285px;
+}
 h1 {
 
         padding-top: 30px;
@@ -41,7 +47,7 @@ h1 {
 /* Appy CSS to the teal box with my name */
 #box1 {
 
-    margin-top: 100px;
+    margin-top: 121px;
     margin-left: 25%;
     width: 250px;
     height: 76px;
@@ -49,7 +55,7 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
     line-height: 60px;
-    padding-top: 25px;
+    padding-top: 11px;
     color: white;
     font-weight: bold;
     font-size: 30px;
@@ -65,8 +71,8 @@ h1 {
 
 img {
 
-    width: 130px;
-    height: 130px;
+    width: 175px;
+    height: 148px;
     float: left;
     padding: 15px 15px 15px 50px;
 

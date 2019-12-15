@@ -48,7 +48,7 @@ h1 {
 #box1 {
 
     margin-top: 11px;
-    margin-left: 27%;
+    margin-left: 25%;
     width: 250px;
     height: 76px;
     background-color: #4aaaa5;
@@ -91,7 +91,9 @@ p.clear {
 
     clear: both;
 
+    
 }
+
 
 .wrapper {
 
@@ -100,11 +102,11 @@ p.clear {
 
 }
 
-.wrapperP {
+/*.wrapperP {
 
     
     margin-bottom: 50px;
-}
+} */
 
 .container, .container-lg
 , .container-md, .container-sm, 
@@ -122,7 +124,7 @@ p.clear {
     width: 50%;
     border: 2px solid #dddddd;
     margin: 20px 20px 215px 25%;
-    padding-bottom: 60px;
+    padding-bottom: 65px;
     flex: 1 0 auto;
     background-color: #ffffff;
 
@@ -136,7 +138,7 @@ p.clear {
 
  .footer {
 
-    position: fixed;
+    position: bottom;
     bottom: 0px;
     width: 100%;
     border-top: 8px solid #4aaaa5;
@@ -160,7 +162,4 @@ p.clear {
 
 
 
-@media (min-width: 576px) {
-
-
-}
+@media (min-width: 1200px) 

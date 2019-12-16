@@ -72,8 +72,8 @@ h1 {
 
 img {
 
-    width: 175px;
-    height: 148px;
+    width: 300px;
+    height: 300px;
     float: left;
     padding: 15px 15px 15px 50px;
 
@@ -99,6 +99,7 @@ p.clear {
 
         min-height: 100%;
         margin-bottom: -50px;
+        width: 100%;
 
 }
 
@@ -114,8 +115,10 @@ p.clear {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 85px;
     margin-right: auto;
     margin-left: auto;
+
 
 }
 
@@ -136,10 +139,10 @@ p.clear {
 
 }
 
- .footer {
+.footer {
 
     position: bottom;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
@@ -147,19 +150,184 @@ p.clear {
     font-size: 13px;
     padding-top: 6px;
     text-align: center;
-    color: #cccccc;
+    color: #7e7979;
 
 }
 
 .footer,
 .push {
+    width: 100%;
+}
 
-   /* height: 22px;*/
-   width: 100%;
+@media only screen and (max-width: 575px) {
 
+}
+
+@media only screen and (min-width: 576px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+    .nav {
+
+        float:  right;
+        padding-top: 20px;
+        padding-right: 0px;
+    }
+
+    .main-bio {
+
+        padding-left: 50px;
+        padding-right: 50px;
+
+}
+    h1 {
+    
+            padding-top: 30px;
+            padding-left: 50px;
+            color: #4aaaa5;
+    }
+    
+    /* Appy CSS to the teal box with my name */
+    #box1 {
+    
+        margin-top: 0px;
+        margin-left: 5px;
+        width: 250px;
+        height: 90px;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        text-align: justify;
+        line-height: 60px;
+        letter-spacing: 4px;
+        padding-left: 33px;
+        padding-top: 11px;
+        color: white;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    /* Apply CSS to the top border or navbar of the page */
+    #relative {
+    
+        border-bottom: solid #cccccc 3px;
+        float: left;
+        width: 100%;
+        height: 90px;
+        background-color: #ffffff;
+    }
+    
+    img {
+    
+        width: 300px;
+        height: 300px;
+        float: left;
+        padding: 15px 15px 15px 50px;
+    
+    
+    }
+    
+    .jumbotron {
+        background-color: #ffffff;
+        margin: auto;
+        padding: 0px 0px;
+    
+    }
+    
+    p.clear {
+    
+        clear: both;
+    
+        
+    }
+    
+    
+    .wrapper {
+    
+            min-height: 100%;
+            margin-bottom: -50px;
+            width: 100%;
+    
+    }
+    
+    /*.wrapperP {
+    
+        
+        margin-bottom: 50px;
+    } */
+    
+    .container, .container-lg
+    , .container-md, .container-sm, 
+    .container-xl {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 85px;
+       
+    
+    
+    }
+    
+    .content {
+    
+        width: 100%;
+        border: 2px solid #dddddd;
+        margin: 20px 5px 220px 0px;
+        padding-bottom: 65px;
+        flex: 1 0 auto;
+        background-color: #ffffff;
+    
+    }
+ 
+    
 }
 
 
 
+@media only screen and (min-width: 992px) {
+    img {
+        width: 175px;
+        height: 175px;
+        padding: 30px 30px 0px 27px;
+        
+    }
+    #box1 {
 
-@media (min-width: 1200px) 
+        margin-top: 11px;
+        margin-left: 25%;
+        width: 197px;
+        height: 76px;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        text-align: center;
+        line-height: 60px;
+        padding-top: 11px;
+        padding-left: 0px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    /* Apply CSS to the top border or navbar of the page */
+    #relative {
+    
+        border-bottom: solid #cccccc 3px;
+        float: left;
+        width: 100%;
+        height: 90px;
+        background-color: #ffffff;
+    }
+    .nav {
+
+        float:  right;
+        padding-top: 20px;
+        padding-right: 232px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    img {
+        width: 275px;
+        height: 300px;
+        padding: 1px 3px 33px 25px;
+    }
+}

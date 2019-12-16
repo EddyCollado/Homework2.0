@@ -48,7 +48,7 @@ h1 {
 #box1 {
 
     margin-top: 11px;
-    margin-left: 25%;
+    margin-left: 17.5%;
     width: 250px;
     height: 76px;
     background-color: #4aaaa5;
@@ -124,7 +124,7 @@ p.clear {
 
 .content {
 
-    width: 50%;
+    width: 75%;
     border: 2px solid #dddddd;
     margin: 20px 20px 215px 25%;
     padding-bottom: 65px;
@@ -163,16 +163,128 @@ p.clear {
 
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 786px) {
+    .nav {
+
+        position: absolute;
+        padding-top: 88px;
+        padding-right: 5px;
+        padding-left: 175px;
+    }
+
+    .main-bio {
+
+        padding-left: 50px;
+        padding-right: 50px;
+
+}
+    h1 {
+    
+            padding-top: 30px;
+            padding-left: 163px;
+            color: #4aaaa5;
+    }
+    
+    /* Appy CSS to the teal box with my name */
+    #box1 {
+    
+        margin-top: -40px;
+        margin-left: 0px;
+        width: 100%;
+        height: 90px;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        text-align: justify;
+        line-height: 60px;
+        letter-spacing: 4px;
+        padding-left: 200px;
+        padding-top: 35px;
+        color: white;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    /* Apply CSS to the top border or navbar of the page */
+    #relative {
+    
+        border-bottom: solid #cccccc 3px;
+        float: left;
+        width: 100%;
+        height: 90px;
+        background-color: #ffffff;
+    }
+    
+    img {
+    
+        width: 383px;
+        height: 200px;
+        float: left;
+        padding: 1px 15px 15px 135px;
+    
+    
+    }
+    
+    .jumbotron {
+        background-color: #ffffff;
+        margin: auto;
+        padding: 0px 0px;
+    
+    }
+    
+    p.clear {
+    
+        clear: both;
+    
+        
+    }
+    
+    
+    .wrapper {
+    
+            min-height: 100%;
+            margin-bottom: -50px;
+            width: 100%;
+    
+    }
+    
+    /*.wrapperP {
+    
+        
+        margin-bottom: 50px;
+    } */
+    
+    .container, .container-lg
+    , .container-md, .container-sm, 
+    .container-xl {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 85px;
+       
+    
+    
+    }
+    
+    .content {
+    
+        width: 100%;
+        border: 2px solid #dddddd;
+        margin: 20px 5px 220px 0px;
+        padding-bottom: 65px;
+        flex: 1 0 auto;
+        background-color: #ffffff;
+    
+    }
+ 
+    
 
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 787px) {
     .nav {
 
         float:  right;
         padding-top: 20px;
-        padding-right: 0px;
+        padding-right: 32px;
     }
 
     .main-bio {
@@ -218,8 +330,8 @@ p.clear {
     
     img {
     
-        width: 300px;
-        height: 300px;
+        width: 335px;
+        height: 280px;
         float: left;
         padding: 15px 15px 15px 50px;
     
@@ -285,16 +397,16 @@ p.clear {
 
 @media only screen and (min-width: 992px) {
     img {
-        width: 175px;
-        height: 175px;
-        padding: 30px 30px 0px 27px;
+        width: 368px;
+        height: 268px;
+        padding: 0px 30px 26px 39px;
         
     }
     #box1 {
 
         margin-top: 11px;
-        margin-left: 25%;
-        width: 197px;
+        margin-left: 0%;
+        width: 250px;
         height: 76px;
         background-color: #4aaaa5;
         font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -304,7 +416,7 @@ p.clear {
         padding-left: 0px;
         color: white;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 22px;
     }
     /* Apply CSS to the top border or navbar of the page */
     #relative {
@@ -319,15 +431,99 @@ p.clear {
 
         float:  right;
         padding-top: 20px;
-        padding-right: 232px;
+        padding-right: 50px;
     }
+    .container, .container-lg
+    , .container-md, .container-sm, 
+    .container-xl {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 100px;
+        padding-bottom: 85px;
+       
+    
+    
+    }
+    .content {
+    
+        width: 800px;
+        border: 2px solid #dddddd;
+        margin: 20px 5px 220px 0px;
+        padding-bottom: 65px;
+        flex: 1 0 auto;
+        background-color: #ffffff;
+    
+    }
+
 }
 
 
 @media only screen and (min-width: 1200px) {
     img {
-        width: 275px;
+        width: 298px;
         height: 300px;
-        padding: 1px 3px 33px 25px;
+        padding: 1px 3px 33px 39px;
     }
+
+    .nav {
+
+        float:  right;
+        padding-top: 20px;
+        padding-right: 140px;
+    }
+
+    .main-bio {
+
+        padding-left: 50px;
+        padding-right: 50px;
+
+}
+    h1 {
+    
+            padding-top: 30px;
+            padding-left: 50px;
+            color: #4aaaa5;
+    }
+
+    .content {
+    
+        width: 800px;
+        border: 2px solid #dddddd;
+        margin: 20px 5px 220px 0px;
+        margin-left: 80px;
+        padding-bottom: 65px;
+        flex: 1 0 auto;
+        background-color: #ffffff;
+    
+    }
+
+    #box1 {
+
+        margin-top: 11px;
+        margin-left: 8%;
+        width: 250px;
+        height: 76px;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        text-align: center;
+        line-height: 60px;
+        padding-top: 11px;
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    /* Apply CSS to the top border or navbar of the page */
+    #relative {
+    
+        border-bottom: solid #cccccc 3px;
+        float: left;
+        width: 100%;
+        height: 90px;
+        background-color: #ffffff;
+    }
+
+    .col-md-5 {
+        margin-right: -60px;
+    }
+    
 }

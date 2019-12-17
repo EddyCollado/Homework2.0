@@ -12,9 +12,6 @@ body {
     line-height: 25px;
     display: flex;
     flex-direction: column;
-   
-   
-
 }
 
 p {
@@ -148,17 +145,16 @@ p.clear {
     background-color: #666666;
     flex-shrink: 0;
     font-size: 13px;
-    padding-top: 6px;
-    text-align: center;
-    color: #7e7979;
-
+        padding-top: 6px;
+        text-align: center;
+        color: #7e7979;
 }
 
 .footer,
 .push {
-    width: 100%;
+        width: 100%;
 }
-/* the absolute position seems to be messing up the order of the page, fix it. */
+/* For screens smaller than 575px */
 @media only screen and (max-width: 575px) {
     .nav {
 
@@ -173,17 +169,16 @@ p.clear {
         padding-left: 50px;
         padding-right: 50px;
 
-}
+    }
     h1 {
     
-            padding-top: 30px;
-            padding-left: 163px;
-            color: #4aaaa5;
+        padding-top: 30px;
+        padding-left: 163px;
+        color: #4aaaa5;
     }
     
     /* Appy CSS to the teal box with my name */
     #box1 {
-    
         margin-top: -40px;
         margin-left: 0px;
         width: 100%;

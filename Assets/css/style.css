@@ -270,9 +270,25 @@ p.clear {
         background-color: #ffffff;
     
     }
- 
-    
+    .footer {
 
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 8px solid #4aaaa5;
+        background-color: #666666;
+        flex-shrink: 0;
+        font-size: 13px;
+        padding-top: 6px;
+        text-align: center;
+        color: #7e7979;
+    
+    }
+    
+    .footer,
+    .push {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 786px) {
@@ -385,6 +401,25 @@ p.clear {
         flex: 1 0 auto;
         background-color: #ffffff;
     
+    }
+    .footer {
+
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 8px solid #4aaaa5;
+        background-color: #666666;
+        flex-shrink: 0;
+        font-size: 13px;
+        padding-top: 6px;
+        text-align: center;
+        color: #7e7979;
+    
+    }
+    
+    .footer,
+    .push {
+        width: 100%;
     }
  
     
@@ -501,6 +536,26 @@ p.clear {
         background-color: #ffffff;
     
     }
+
+    .footer {
+
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 8px solid #4aaaa5;
+        background-color: #666666;
+        flex-shrink: 0;
+        font-size: 13px;
+        padding-top: 6px;
+        text-align: center;
+        color: #7e7979;
+    
+    }
+    
+    .footer,
+    .push {
+        width: 100%;
+    }
  
     
 }
@@ -565,6 +620,25 @@ p.clear {
         flex: 1 0 auto;
         background-color: #ffffff;
     
+    }
+    .footer {
+
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 8px solid #4aaaa5;
+        background-color: #666666;
+        flex-shrink: 0;
+        font-size: 13px;
+        padding-top: 6px;
+        text-align: center;
+        color: #7e7979;
+    
+    }
+    
+    .footer,
+    .push {
+        width: 100%;
     }
 
 }
@@ -636,6 +710,25 @@ p.clear {
 
     .col-md-5 {
         margin-right: -60px;
+    }
+    .footer {
+
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 8px solid #4aaaa5;
+        background-color: #666666;
+        flex-shrink: 0;
+        font-size: 13px;
+        padding-top: 6px;
+        text-align: center;
+        color: #7e7979;
+    
+    }
+    
+    .footer,
+    .push {
+        width: 100%;
     }
     
 }

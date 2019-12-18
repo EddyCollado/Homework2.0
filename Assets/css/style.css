@@ -1,13 +1,9 @@
-
-
 html, body {
-
     height: 100%;
     margin: 0;
 }
 
 body {
-
     font-size: 17px;
     line-height: 25px;
     display: flex;
@@ -15,35 +11,29 @@ body {
 }
 
 p {
-
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
 }
 
 .main-bio {
-
-        padding-left: 50px;
-        padding-right: 50px;
-
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .nav {
-
     float:  right;
     padding-top: 20px;
     padding-right: 285px;
 }
-h1 {
 
-        padding-top: 30px;
-        padding-left: 50px;
-        color: #4aaaa5;
+h1 {
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #4aaaa5;
 }
 
 /* Appy CSS to the teal box with my name */
 #box1 {
-
     margin-top: 11px;
     margin-left: 17.5%;
     width: 250px;
@@ -57,9 +47,9 @@ h1 {
     font-weight: bold;
     font-size: 30px;
 }
+
 /* Apply CSS to the top border or navbar of the page */
 #relative {
-
     border-bottom: solid #cccccc 3px;
     float: left;
     width: 100%;
@@ -68,43 +58,28 @@ h1 {
 }
 
 img {
-
     width: 300px;
     height: 300px;
     float: left;
     padding: 15px 15px 15px 50px;
-
-
 }
 
 .jumbotron {
     background-color: #ffffff;
     margin: auto;
     padding: 25px 25px;
-
 }
 
 p.clear {
-
-    clear: both;
-
-    
+    clear: both;   
 }
 
 
 .wrapper {
-
-        min-height: 100%;
-        margin-bottom: -50px;
-        width: 100%;
-
+    min-height: 100%;
+    margin-bottom: -50px;
+    width: 100%;
 }
-
-/*.wrapperP {
-
-    
-    margin-bottom: 50px;
-} */
 
 .container, .container-lg
 , .container-md, .container-sm, 
@@ -115,25 +90,20 @@ p.clear {
     padding-bottom: 85px;
     margin-right: auto;
     margin-left: auto;
-
-
 }
 
 .content {
-
     width: 75%;
     border: 2px solid #dddddd;
     margin: 20px 20px 215px 25%;
     padding-bottom: 65px;
     flex: 1 0 auto;
     background-color: #ffffff;
-
 }
 
 .col-xl-12 {
     padding: 0px;
     margin: auto;
-
 }
 
 .footer {
@@ -145,38 +115,34 @@ p.clear {
     background-color: #666666;
     flex-shrink: 0;
     font-size: 13px;
-        padding-top: 6px;
-        text-align: center;
-        color: #7e7979;
+    padding-top: 6px;
+    text-align: center;
+    color: #7e7979;
 }
 
-.footer,
-.push {
-        width: 100%;
+.footer, .push {
+    width: 100%;
 }
 /* For screens smaller than 575px */
 @media only screen and (max-width: 575px) {
     .nav {
-
         position: absolute;
         padding-top: 88px;
         padding-right: 5px;
         padding-left: 135px;
-    }
+        }
 
     .main-bio {
-
         padding-left: 50px;
         padding-right: 50px;
-
     }
+
     h1 {
-    
         padding-top: 30px;
         padding-left: 163px;
         color: #4aaaa5;
     }
-    
+        
     /* Appy CSS to the teal box with my name */
     #box1 {
         margin-top: -40px;
@@ -194,80 +160,59 @@ p.clear {
         font-weight: bold;
         font-size: 21px;
     }
+
     /* Apply CSS to the top border or navbar of the page */
     #relative {
-    
         border-bottom: solid #cccccc 3px;
         float: left;
         width: 100%;
         height: 90px;
         background-color: #ffffff;
     }
-    
+        
     img {
-    
         width: 383px;
         height: 200px;
         float: left;
         padding: 1px 15px 15px 135px;
-    
-    
     }
-    
+        
     .jumbotron {
         background-color: #ffffff;
         margin: auto;
         padding: 0px 0px;
-    
     }
-    
+        
     p.clear {
-    
         clear: both;
-    
-        
     }
-    
-    
+        
     .wrapper {
-    
-            min-height: 100%;
-            margin-bottom: -50px;
-            width: 100%;
-    
+        min-height: 100%;
+        margin-bottom: -50px;
+        width: 100%;
     }
-    
-    /*.wrapperP {
-    
-        
-        margin-bottom: 50px;
-    } */
-    
-    .container, .container-lg
-    , .container-md, .container-sm, 
+
+    .container, .container-lg, 
+    .container-md, .container-sm, 
     .container-xl {
         width: 100%;
         padding-right: 0px;
         padding-left: 0px;
         padding-bottom: 85px;
-       
-    
-    
     }
-    
+        
     .content {
-    
         width: 100%;
         border: 2px solid #dddddd;
         margin: 20px 5px 220px 0px;
         padding-bottom: 65px;
         flex: 1 0 auto;
         background-color: #ffffff;
-    
     }
-    .footer {
 
-        position: fixed;
+    .footer {
+        position: bottom;
         bottom: 0;
         width: 100%;
         border-top: 8px solid #4aaaa5;
@@ -277,18 +222,15 @@ p.clear {
         padding-top: 6px;
         text-align: center;
         color: #7e7979;
-    
     }
-    
-    .footer,
-    .push {
+
+    .footer, .push {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 786px) {
     .nav {
-
         position: absolute;
         padding-top: 88px;
         padding-right: 5px;
@@ -296,21 +238,18 @@ p.clear {
     }
 
     .main-bio {
-
         padding-left: 50px;
         padding-right: 50px;
-
-}
-    h1 {
+    }
     
-            padding-top: 30px;
-            padding-left: 163px;
-            color: #4aaaa5;
+    h1 {
+        padding-top: 30px;
+        padding-left: 163px;
+        color: #4aaaa5;
     }
     
     /* Appy CSS to the teal box with my name */
     #box1 {
-    
         margin-top: -40px;
         margin-left: 0px;
         width: 100%;
@@ -326,9 +265,9 @@ p.clear {
         font-weight: bold;
         font-size: 21px;
     }
+
     /* Apply CSS to the top border or navbar of the page */
     #relative {
-    
         border-bottom: solid #cccccc 3px;
         float: left;
         width: 100%;
@@ -337,69 +276,48 @@ p.clear {
     }
     
     img {
-    
         width: 383px;
         height: 200px;
         float: left;
         padding: 1px 15px 15px 135px;
-    
-    
     }
     
     .jumbotron {
         background-color: #ffffff;
         margin: auto;
         padding: 0px 0px;
-    
     }
     
     p.clear {
-    
-        clear: both;
-    
-        
+        clear: both;    
     }
-    
-    
+
     .wrapper {
-    
-            min-height: 100%;
-            margin-bottom: -50px;
-            width: 100%;
-    
+        min-height: 100%;
+        margin-bottom: -50px;
+        width: 100%;
     }
-    
-    /*.wrapperP {
-    
-        
-        margin-bottom: 50px;
-    } */
-    
-    .container, .container-lg
-    , .container-md, .container-sm, 
+
+    .container, .container-lg, 
+    .container-md, .container-sm, 
     .container-xl {
         width: 100%;
         padding-right: 0px;
         padding-left: 0px;
         padding-bottom: 85px;
-       
-    
-    
     }
     
     .content {
-    
         width: 100%;
         border: 2px solid #dddddd;
         margin: 20px 5px 220px 0px;
         padding-bottom: 65px;
         flex: 1 0 auto;
         background-color: #ffffff;
-    
     }
-    .footer {
 
-        position: fixed;
+    .footer {
+        position: bottom;
         bottom: 0;
         width: 100%;
         border-top: 8px solid #4aaaa5;
@@ -409,42 +327,34 @@ p.clear {
         padding-top: 6px;
         text-align: center;
         color: #7e7979;
-    
     }
     
     .footer,
     .push {
         width: 100%;
     }
- 
-    
-
 }
 
 @media only screen and (min-width: 787px) {
     .nav {
-
         float:  right;
         padding-top: 20px;
         padding-right: 32px;
     }
 
     .main-bio {
-
         padding-left: 50px;
         padding-right: 50px;
+    }
 
-}
     h1 {
-    
-            padding-top: 30px;
-            padding-left: 50px;
-            color: #4aaaa5;
+        padding-top: 30px;
+        padding-left: 50px;
+        color: #4aaaa5;
     }
     
     /* Appy CSS to the teal box with my name */
     #box1 {
-    
         margin-top: 0px;
         margin-left: 5px;
         width: 250px;
@@ -460,9 +370,9 @@ p.clear {
         font-weight: bold;
         font-size: 21px;
     }
+
     /* Apply CSS to the top border or navbar of the page */
     #relative {
-    
         border-bottom: solid #cccccc 3px;
         float: left;
         width: 100%;
@@ -471,69 +381,48 @@ p.clear {
     }
     
     img {
-    
         width: 335px;
         height: 280px;
         float: left;
         padding: 15px 15px 15px 50px;
-    
-    
     }
     
     .jumbotron {
         background-color: #ffffff;
         margin: auto;
         padding: 0px 0px;
-    
     }
     
     p.clear {
-    
         clear: both;
-    
-        
     }
     
     
     .wrapper {
-    
-            min-height: 100%;
-            margin-bottom: -50px;
-            width: 100%;
-    
+        min-height: 100%;
+        margin-bottom: -50px;
+        width: 100%;
     }
     
-    /*.wrapperP {
-    
-        
-        margin-bottom: 50px;
-    } */
-    
-    .container, .container-lg
-    , .container-md, .container-sm, 
+    .container, .container-lg, 
+    .container-md, .container-sm, 
     .container-xl {
         width: 100%;
         padding-right: 0px;
         padding-left: 0px;
         padding-bottom: 85px;
-       
-    
-    
     }
     
     .content {
-    
         width: 100%;
         border: 2px solid #dddddd;
         margin: 20px 5px 220px 0px;
         padding-bottom: 65px;
         flex: 1 0 auto;
         background-color: #ffffff;
-    
     }
 
     .footer {
-
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -544,28 +433,22 @@ p.clear {
         padding-top: 6px;
         text-align: center;
         color: #7e7979;
-    
     }
     
     .footer,
     .push {
         width: 100%;
-    }
- 
-    
+    }  
 }
-
-
 
 @media only screen and (min-width: 992px) {
     img {
         width: 368px;
         height: 268px;
-        padding: 0px 30px 26px 39px;
-        
+        padding: 0px 30px 26px 39px;   
     }
-    #box1 {
 
+    #box1 {
         margin-top: 11px;
         margin-left: 0%;
         width: 250px;
@@ -580,44 +463,41 @@ p.clear {
         font-weight: bold;
         font-size: 22px;
     }
+
     /* Apply CSS to the top border or navbar of the page */
     #relative {
-    
         border-bottom: solid #cccccc 3px;
         float: left;
         width: 100%;
         height: 90px;
         background-color: #ffffff;
     }
-    .nav {
 
+    .nav {
         float:  right;
         padding-top: 20px;
         padding-right: 50px;
     }
-    .container, .container-lg
-    , .container-md, .container-sm, 
+
+    .container, .container-lg,
+     .container-md, .container-sm, 
     .container-xl {
         width: 100%;
         padding-right: 0px;
         padding-left: 100px;
         padding-bottom: 85px;
-       
-    
-    
     }
+
     .content {
-    
-        width: 800px;
+         width: 800px;
         border: 2px solid #dddddd;
         margin: 20px 5px 220px 0px;
         padding-bottom: 65px;
         flex: 1 0 auto;
         background-color: #ffffff;
-    
     }
+    
     .footer {
-
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -628,16 +508,13 @@ p.clear {
         padding-top: 6px;
         text-align: center;
         color: #7e7979;
-    
     }
     
     .footer,
     .push {
         width: 100%;
     }
-
 }
-
 
 @media only screen and (min-width: 1200px) {
     img {
@@ -647,27 +524,22 @@ p.clear {
     }
 
     .nav {
-
         float:  right;
         padding-top: 20px;
         padding-right: 140px;
     }
 
     .main-bio {
-
         padding-left: 50px;
         padding-right: 50px;
-
 }
     h1 {
-    
-            padding-top: 30px;
-            padding-left: 50px;
-            color: #4aaaa5;
+        padding-top: 30px;
+        padding-left: 50px;
+        color: #4aaaa5;
     }
 
     .content {
-    
         width: 800px;
         border: 2px solid #dddddd;
         margin: 20px 5px 220px 0px;
@@ -675,11 +547,9 @@ p.clear {
         padding-bottom: 65px;
         flex: 1 0 auto;
         background-color: #ffffff;
-    
     }
 
     #box1 {
-
         margin-top: 11px;
         margin-left: 8%;
         width: 250px;
@@ -693,9 +563,9 @@ p.clear {
         font-weight: bold;
         font-size: 22px;
     }
+
     /* Apply CSS to the top border or navbar of the page */
     #relative {
-    
         border-bottom: solid #cccccc 3px;
         float: left;
         width: 100%;
@@ -706,8 +576,8 @@ p.clear {
     .col-md-5 {
         margin-right: -60px;
     }
-    .footer {
 
+    .footer {
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -718,12 +588,10 @@ p.clear {
         padding-top: 6px;
         text-align: center;
         color: #7e7979;
-    
     }
     
     .footer,
     .push {
         width: 100%;
     }
-    
 }
